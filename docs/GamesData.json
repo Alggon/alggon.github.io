@@ -1,0 +1,44 @@
+[
+    {
+        "title":"Ellipse",
+        "description":"Explore the maze and customize your weapons to fight aliens creatures in this 3rd person dynamic extraction-shooter.\n But beware, because the night is dark and full of terrors.",
+        "link":"https://www.youtube.com/embed/mwrMlr9yWUk?si=ukMrHOge_9YJr3hx&amp;",
+        "role": "Technical lead / 3C / Animation / CI&CD"
+    },
+    {
+        "title":"Beyond The Dark : Nightwatch",
+        "description":"First person horror game.",
+        "link":"https://www.youtube.com/embed/TNqXIgE-9Ik?si=mCaQB6aaMmdEhZ5z&amp;",
+        "role": "Prototyping / Architecture / 3C / Animation / Shaders / VFX"
+    },
+    {
+        "title":"Wild 31",
+        "description":"A colored Beat Them'Up inspired by Sifu.",
+        "link":"https://www.youtube.com/embed/G13TG2P4iks?si=QqIJD_cFlVt-T5Y2&amp;",
+        "role": "Technical lead / CI&CD / Shaders / VFX"
+    },
+    {
+        "title":"Kleptomania",
+        "description":"Online multiplayer heist game.",
+        "link":"https://www.youtube.com/embed/8lL2qxl40nY?si=KCadCXITiEwPYTsA&amp;",
+        "role": "3C / Gameplay / Network / Level Procedural Generation / Shaders / VFX"
+    },
+    {
+        "title":"Alterity",
+        "description":"P.T inspired horror game.",
+        "link":"https://www.youtube.com/embed/G64Recit0T0?si=AAVtm0HMOQ7vLm5a",
+        "role": "3C / Gameplay"
+    },
+    {
+        "title":"Gun-Harder",
+        "description":"Space themed Rogue-Like.",
+        "link":"https://www.youtube.com/embed/qdZ3meUn8CY?si=g3jAJPkr4wDVvJ5B",
+        "role": "Personal project"
+    },
+    {
+        "title":"RogueLight",
+        "description":"Magic Rogue-Light",
+        "link":"https://www.youtube.com/embed/BRktd9asEBg?si=jJc0w53xkMKEah_V",
+        "role": "Personal project"
+    }
+]
