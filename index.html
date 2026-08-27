@@ -1,21 +1,42 @@
-    <head>
-        <meta charset = "UTF-8">
-        <title>Alggon</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>Allan Faure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <body>
-        <header>
+<body>
+    <header>
+        <div class="mainBar">
             <h1>Allan Faure - Unreal Engine Developer</h1>
-            <nav>
+            <nav class="menuNav">
+                <a href="#about">About</a>
+                <a href="#games">Games</a>
                 <a href="#projects">Projects</a>
-                <a href="#skills">Skills</a>
                 <a href="#contact">Contact</a>
             </nav>
-            </header>
-            <section id ="projects">
-                <h2>My projects</h2>
-                <script src="script.js"></script>
-            </section>
-    </body>
+        </div>
+    </header>
+    <section id="about">
+        <h2>About</h2>
+        <div class="aboutDiv">
+            <div id ="resume">
+            </div>
+            <a href="docs/Allan-Faure-Resume.pdf" class="button" download>Download Resume</a>
+        </div>
+    </section>
+    <section id="games">
+        <h2>Games</h2>
+        <div class="gamesGrid" id="gamesGrid">
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projectDiv" id="projectDiv">
+        </div>
+    </section>
+    <script src="scripts/ResumeText.js"></script>
+    <script src="scripts/DataGenerator.js"></script>
+    <script src="scripts/ProjectCollector.js"></script>
+</body>
+
 </html>
