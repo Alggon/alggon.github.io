@@ -2,26 +2,37 @@
     <meta charset="UTF-8">
     <title>Allan Faure</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
-<body>
+<>
     <header>
         <div class="mainBar">
-            <h1>Allan Faure - Unreal Engine Developer</h1>
-            <nav class="menuNav">
+            <h1>Allan Faure - Unreal Engine & C++ Developer</h1>
+            <div class="menuNav">
                 <a href="#about">About</a>
                 <a href="#games">Games</a>
                 <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
-            </nav>
+                <a class="burger" id="burgerButton"> Contact
+                    <div class="contactBurger" id="contactBurger">
+                        <ul>
+                            <a>Salut</a>
+                            <a>Salut</a>
+                            <a>Salut</a>
+                        </ul>
+                    </div>
+                </a>
+                <!-- <a>Contact <i class="fa-sharp fa-solid fa-caret-down"></i></a> -->
+            </div>
         </div>
     </header>
     <section id="about">
         <h2>About</h2>
         <div class="aboutDiv">
-            <div id ="resume">
+            <div id="resume">
             </div>
-            <a href="docs/Allan-Faure-Resume.pdf" class="button" download>Download Resume</a>
+            <a href="docs/Allan-Faure-Resume.pdf" class="button" download>Download Resume <i
+                    class="fa-sharp fa-solid fa-file"></i></a>
         </div>
     </section>
     <section id="games">
@@ -34,8 +45,21 @@
         <div class="projectDiv" id="projectDiv">
         </div>
     </section>
+    <section id="contact">
+        <div class="contactDiv">
+            <div class="content">
+                <a href="mailto:allan.faure.b@gmail.com"> <i class="fa-sharp fa-solid fa-envelope"></i> :
+                    allan.faure.b@gmail.com</a>
+                <a href="https://github.com/Alggon"> <i class="fa-brands fa-github"></i> : github.com/Alggon</a>
+                <a href="https://artstation.com/alggon"> <i class="fa-brands fa-artstation"></i> :
+                    artstation.com/Alggon</a>
+                <a><i class="fa-sharp fa-solid fa-location-dot"></i> : Avignon (84000) - France</a>
+            </div>
+        </div>
+    </section>
     <script src="scripts/ResumeText.js"></script>
     <script src="scripts/DataGenerator.js"></script>
     <script src="scripts/ProjectCollector.js"></script>
-</body>
-</html>
+    </body>
+
+    </html>
