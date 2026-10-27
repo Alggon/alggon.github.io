@@ -14,10 +14,11 @@
     --main: #1f1f1f;
     --secondary: #4f0000;
     --cards: #232323;
-    --fontColor: #ecebeb;
-    --buttonFontColor: #ecebeb;
+    --fontColor: #ececec;
+    --paragraphFontColor: #9b9b9b;
+    --buttonFontColor: #ececec;
     --activeButton: #1f1f1f;
-    --highlight: #ecebeb50;
+    --highlight: #ececec50;
     --border: #4f000050;
 
     --borderSize: 0;
@@ -33,6 +34,10 @@ body {
     background-color: var(--main);
     color: var(--fontColor);
     padding: var(--basePadding);
+}
+
+p {
+    color: var(--paragraphFontColor);
 }
 
 section {
