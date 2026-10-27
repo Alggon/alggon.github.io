@@ -186,3 +186,15 @@ a:active {
 .contactDiv .content {
     margin-left: 64px;
 }
+
+@media (max-width: 768px) {
+    .menuNav {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .menuNav {
+        display: none;
+    }
+}
