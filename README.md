@@ -1,2 +1,2 @@
 Github Pages Project
-This is my games and project portfolio.
+This is my project portfolio.

@@ -23,7 +23,7 @@ function createGameCard(card)
     <p>Description : ${card.description}</p>
     <p class="roleText">Role(s) : ${card.role}<p>
     </div>
-    <iframe width=480 height=270 src="${card.link}" frameborder=0 allowfullscreen></iframe>
+    <iframe width=480 height=270 src="${card.link}" frameborder=0 seamless="seamless" overflow="hidden" allowfullscreen></iframe>
     `;
 
     return article;
