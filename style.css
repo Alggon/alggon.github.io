@@ -90,10 +90,11 @@ a:active {
     align-self: center;
     padding: var(--basePadding);
     font-size: 24px;
+    white-space: nowrap;
 }
 
 .menuNav {
-    gap: 16px;
+    gap: 32px;
     flex: 1;
     display: flex;
     justify-content: right;
@@ -133,7 +134,7 @@ a:active {
 }
 
 .button {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     padding: 16px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
@@ -172,15 +173,26 @@ a:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--cards);
     background-color: var(--secondary);
     padding: var(--basePadding);
     position: absolute;
-    gap: 16px;
     width: 100%;
     left: -64px;
     height: 64px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.contactDiv a {
+    display: inline-flex;
+    align-items: center;
+}
+
+.contactDiv a i {
+    display: block;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    line-height: 1;
 }
 
 .contactDiv .content {
@@ -188,13 +200,32 @@ a:active {
 }
 
 @media (max-width: 768px) {
+    .mainBar {
+        position: absolute;
+        justify-content: center;
+    }
+
+    .mainBar h1 {
+        font-size: clamp(16px, 1vw, 24px);
+    }
+
+    * {
+        font-size: clamp(16px, 1vw, 24px);
+    }
+
     .menuNav {
         display: none;
     }
-}
 
-@media (max-width: 480px) {
-    .menuNav {
+    .contactDiv i {
+        font-size: 32px;
+    }
+
+    .sronly {
+        display: none;
+    }
+
+    a.hiddenButton {
         display: none;
     }
 }
