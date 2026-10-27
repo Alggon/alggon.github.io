@@ -20,6 +20,10 @@
     --basePadding: 0px 32px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* --- MAIN ELEMENTS --- */
 body {
     background-color: var(--main);
