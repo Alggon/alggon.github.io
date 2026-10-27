@@ -37,10 +37,3 @@ async function LoadProject(card) {
     const githubLink = card.querySelector('.button');
     githubLink.href = `https://github.com/Alggon/${repoName}`;
 }
-
-const burgerBtn = document.querySelector('#burgerButton');
-const burgerContent = document.querySelector('#contactBurger');
-
-burgerBtn.addEventListener('mouseover', () => {
-    burgerContent.classList.toggle('open');
-});
