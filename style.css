@@ -29,23 +29,17 @@ body {
 
 section {
     scroll-margin-top: 96px;
-    margin-top: 64px;
+    margin-top: 96px;
 }
 
-.burger{
+.burger {
+    font: inherit;
     position: relative;
     display: flex;
     flex-direction: column;
     align-self: center;
 }
 
-.contactBurger{
-    display: none;
-}
-
-.contactBurger.open{
-    display: flex;
-}
 /* --- LINKS BASE --- */
 a {
     color: var(--cards);
@@ -53,7 +47,7 @@ a {
     padding: var(--basePadding);
     align-content: center;
     text-decoration-line: none;
-    transition: 0.1s;
+    transition: 0.2s;
 }
 
 a:hover {
