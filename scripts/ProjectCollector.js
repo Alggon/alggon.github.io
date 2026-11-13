@@ -1,4 +1,4 @@
-const repoList = ["LSBL", "Portalized", "Project-Alterity", "alggon.github.io", "Project-Waves"];
+const repoList = ["LSBL", "Nautilus-Engine", "Portalized", "Project-Alterity", "Project-Waves", "alggon.github.io"];
 
 function CreateCard(repoName) {
     const card = document.createElement('article');
